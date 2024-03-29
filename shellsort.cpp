@@ -6,7 +6,6 @@
 #include <iomanip>
 
 std::ifstream fin("input.txt");
-std::ofstream fout("output.txt");
 
 void ShellSort(std::vector<double>& v, int n)
 {
