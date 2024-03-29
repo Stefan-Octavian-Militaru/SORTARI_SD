@@ -59,7 +59,7 @@ int main()
             else
                 std::cout << "Sortare incorecta " << poz << '\n';
 
-            std::cout << "Elapsed time: " << elapsed.count() << " s\n";
+            std::cout << "Elapsed time: " << elapsed.count() * 1000 << " milisecunde\n";
         }
         else
         {
